@@ -4,13 +4,11 @@ MATLAB codes for the paper Huang, W., Linton, O. and Zhang, Z. (2022). A unified
 # Contents
 Test_Continuous_Supplement.pdf : Supplementary file that contains proofs of the theorems in the main document, some additional simulation results and the derivation of the test statistics and associated limiting null distribution of the real data application.
 
-MATLABcode.zip : MATLAB codes for all the simulation studies and real data application presented in the paper. 
+MC_sim_ADRFLM.m : The main simulation code for testing the average dose-respose function.
 
-Inside MATLABcode.zip: MC_sim_ADRFLM.m : The main simulation code for testing the average dose-respose function.
-
-		       MC_sim_ADRFLM.m : The main simulation code for testing the median dose-respose function.
+ MC_sim_ADRFLM.m : The main simulation code for testing the median dose-respose function.
          
-		       Empirical_USPresidentialCampaignTobitFullData.m : The main codes for testing the Tobit model from the US Presidential Campaign data.
+Empirical_USPresidentialCampaignTobitFullData.m : The main codes for testing the Tobit model from the US Presidential Campaign data.
 
 All other matlab files are subroutines. Please refer to the desciptions in the files.
 
